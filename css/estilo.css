@@ -1,0 +1,54 @@
+/* Estilo general para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f0f0;
+    position: relative;  /* Para permitir que la imagen se posicione en la esquina */
+}
+
+/* Estilo para el encabezado */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilo para la imagen del logo (escudo de Zaragoza) */
+header img {
+    width: 80px;  /* Reducir tamaño de la imagen */
+    height: auto;
+    position: absolute;
+    top: 10px;
+    left: 10px;  /* Posicionar en la esquina superior izquierda */
+}
+
+/* Estilo para la tabla */
+.table-polen {
+    width: 90%;   /* Hacer la tabla más ancha, ocupa el 90% del ancho de la página */
+    margin: 20px auto;  /* Centrar la tabla en la página */
+    border-collapse: collapse;
+}
+
+/* Estilo de las celdas y cabeceras de la tabla */
+.table-polen th, .table-polen td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd; /* Añadir bordes a las celdas */
+}
+
+/* Estilo de las cabeceras de la tabla */
+.table-polen th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+/* Filas de la tabla con colores alternados */
+.table-polen tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Estilo para las imágenes dentro de la tabla */
+.imagen-polen {
+    width: 50px;  /* Ajustar el tamaño de las imágenes dentro de la tabla */
+    height: auto;
+}
